@@ -4,19 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
     <title>NC Timer</title>
   </head>
   <body>
     <header>
       <h1>NC Timer</h1>
-      <p>
+      <p id="header">
         Welcome to NC Timer. A very eggcellent app for all of your timing needs.
       </p>
     </header>
     <section id="timer-controls">
-      <p>Time remaining: 0s</p>
-      <button class="timer-control-button">+30s</button
-      ><button class="timer-control-button">Start</button>
+      <p>Time remaining: <span id="current-time">0</span>s</p>
+      <button class="timer-control-button">+30s</button>
+      <button class="timer-control-button">Start</button>
     </section>
     <section id="instructions">
       <h2>How To Use the Timer</h2>
