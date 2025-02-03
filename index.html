@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>NC Timer</title>
   </head>
   <body>
@@ -16,8 +16,14 @@
     </header>
     <section id="timer-controls">
       <p>Time remaining: <span id="current-time">0</span>s</p>
-      <button class="timer-control-button">+30s</button>
-      <button class="timer-control-button">Start</button>
+      <button id="add-5s" class="timer-control-button">+5s</button>
+      <button id="add-30s" class="timer-control-button">+30s</button>
+      <button id="add-60s" class="timer-control-button">+1min</button>
+      <button id="add-120s" class="timer-control-button">+2min</button>
+      <button id="add-300s" class="timer-control-button">+5min</button>
+      <hr />
+      <button id="reset" class="timer-control-button">Reset</button>
+      <button id="start" class="timer-control-button">Start</button>
     </section>
     <section id="instructions">
       <h2>How To Use the Timer</h2>
