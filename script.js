@@ -1,6 +1,5 @@
 const currTime = document.getElementById("current-time");
 let timeNum = +currTime.textContent;
-
 const resetButton = document.getElementById("reset");
 const startButton = document.getElementById("start");
 const allButtons = [
